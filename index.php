@@ -10,9 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/estilos/estilos.css">
     <link rel="stylesheet" href="./public/estilos/estilos_consulta.css">
-
-    <link rel="icon" href="./public/inicio/img/logo_tecno.png">
-    <title>Consulta Historial de Egresado</title>
+    <link rel="icon" href="./public/inicio/img/lnz.png">
+    <title>Consulta Historial de Egresados</title>
 </head>
 
 <body>
@@ -28,7 +27,7 @@ include "controlador/busquedas/controlador_buscar_historial_egresado_index.php";
 
 <div class="container">
     <h1>HISTORIAL EGRESADO<br>REALICE UNA CONSULTA</h1><br> 
-    <img src="public/img-inicio/logo_tecno.png" width="500px" height="120px"> <br><br> 
+    <img src="public/img-inicio/logo_naza.png" width="500px" height="120px"> <br><br> 
     <p class="aviso">INGRESE EL DNI DEL EGRESADO</p> 
     <form action=""> 
         <input required type="number" placeholder="Ingrese el DNI del egresado..." name="txtdni"> 

@@ -10,7 +10,7 @@ error_reporting(0);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/estilos/estilos.css">
     <link rel="stylesheet" href="../public/estilos/estilos_consulta.css">
-    <link rel="icon" href="../public/inicio/img/logo_tecno.png">
+    <link rel="icon" href="../public/inicio/img/lnz.png">
     <title>Consulta Certificado Modular</title>
 
 
@@ -26,6 +26,9 @@ error_reporting(0);
     </script>
     <script src="../public/pnotify/js/pnotify.buttons.js">
     </script>
+
+
+
 </head>
 
 <body>
@@ -39,12 +42,12 @@ error_reporting(0);
     include "../controlador/busquedas/controlador_buscar_certificado.php";
     ?>
 
-    <div class="container">
+    <div class="container" style="margin-top: 50px;">
         <?php
         $carrera2 = $conexion->query(" select * from carrera");
         ?>
         <h1>CERTIFICADO MODULAR<br>REALICE UNA CONSULTA</h1>
-        <img src="../public/img-inicio/logo_tecno.png" width="500px" height="120px alt=""> <br>
+        <img src="../public/img-inicio/logo_naza.png" width="400px" height="140px" alt=""> <br><br>
     <p class=" aviso">INGRESE EL DNI DEL EGRESADO</p>
         <form action="">
             <input type="number" placeholder="Ingrese el DNI del egresado..." name="txtdni">

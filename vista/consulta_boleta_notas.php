@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/estilos/estilos.css">
     <link rel="stylesheet" href="../public/estilos/estilos_consulta.css">
-    <link rel="icon" href="../public/inicio/img/logo_tecno.png">
+    <link rel="icon" href="../public/inicio/img/lnz.png">
     <title>Consulta Boleta Notas</title>
     <!-- pNotify -->
     <link href="../public/pnotify/css/pnotify.css" rel="stylesheet" />
@@ -29,9 +29,9 @@
   <div class="wrapper">
 
 
-    <div class="container">
+    <div class="container" style="margin-top: 60px;">
         <h1>BOLETA DE NOTAS<br>REALICE UNA CONSULTA</h1><br>
-        <img src="../public/img-inicio/logo_tecno.png" width="500px" height="120px" alt=""> <br><br>
+        <img src="../public/img-inicio/logo_naza.png" width="400px" height="140px" alt=""> <br><br>
         <p class=" aviso">INGRESE EL DNI DEL EGRESADO</p>
         <form action="vista_boleta_nota.php" method="get">
             <input type=" number" placeholder="Ingrese el DNI del egresado..." name="txtdni" id="val">

@@ -23,7 +23,7 @@ if (empty($_SESSION['id']) or ($_SESSION['tipo'] == "egresado")) {
 
    <h4 class="text-center text-secondary pb-2">LISTA DE ADMINISTRATIVOS REGISTRADOS</h4>
 
-   <a class="btn btn-success btn-rounded mb-2" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-plus-circle"></i>
+   <a class="btn btn-primary btn-rounded mb-2" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-plus-circle"></i>
       &nbsp;Registrar</a>
    <?php
 
